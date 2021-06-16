@@ -1,0 +1,14 @@
+<view class="main">
+	<view class="content">
+		<text style="font-size: 36rpx; margin-top: 50rpx">微信授权</text>
+		<text style="font-size: 26rpx; margin-top: 40rpx">为获取更好的体验</text>
+		<text style="font-size: 26rpx; margin-top: 10rpx">我们将获取您的用户信息（昵称、头像等）</text>
+		<text style="font-size: 26rpx; margin-top: 5rpx; margin-bottom: 30rpx;color:red; ">(用户信息仅作展示使用)</text>
+		<view class="btn-wrap" style="width: 95%;margin: 0 auto">
+			<button style="width: 46%;float:left; font-size: 32rpx;margin: 17px 0 8px;  background: #eee;color: #c1c1c1;" bindtap="back" >取消</button>
+			<button wx:if="{{canIUseGetUserProfile}}" style="width: 46%;float:right; font-size: 32rpx;margin: 17px 0 8px;  background: linear-gradient(90deg, #E02087, #F82F48);color: #fff;"  bindtap="authorization">允许1</button>
+			<button wx:else style="width: 46%;float:right; font-size: 32rpx;margin: 17px 0 8px;  background: linear-gradient(90deg, #E02087, #F82F48);color: #fff;" open-type="getUserInfo" bindgetuserinfo="authorization">允许2</button>
+		</view>
+	</view>
+</view>
+

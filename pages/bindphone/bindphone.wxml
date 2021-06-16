@@ -1,0 +1,11 @@
+<import src="../../template/count-down/count-down.wxml" />
+<view class="page">
+  <view class="content">
+    <view class="title">绑定手机号码，让你的账户更安全</view>
+    <view class="tip">将获取您的微信绑定手机号码进行注册。</view>
+    <view class="wx-phone-btn-wrap">
+      <button style="float:left;background: #eee;color: #c1c1c1;width:46%" bindtap="back" >取消</button>
+      <button style="background: linear-gradient(90deg, #E02087, #F82F48);color:#fff;width:46%" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">绑定</button>
+    </view>
+  </view>
+</view>

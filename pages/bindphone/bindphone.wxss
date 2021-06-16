@@ -1,0 +1,143 @@
+button[type="primary"] {
+  background-color: none;
+}
+
+.title {
+  padding: 30rpx 15px;
+  font-size: 14px;
+  color: #707070;
+}
+.tip {
+  padding: 10rpx 15px 15px;
+  font-size: 14px;
+  color: red;
+}
+.wx-phone-btn-wrap{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+}
+.wx-phone-btn-wrap button{
+  width: 46%;
+  float: right;
+  font-size: 16px;
+  margin: 17px 0 8px;
+}
+.useOtherPhone{
+  font-size: 12px;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  background: none;
+  padding-bottom: 10px;
+}
+.content{
+  width: 654rpx;
+  border-radius: 16rpx;
+  display: block;
+  margin: 20px auto;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.phoneform {
+  padding: 0 15px;
+}
+
+.main_spacing {
+  position: relative;
+  padding: 0 15px;
+  background-color: #fff;
+}
+
+.border-b {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+input {
+  height: 46px;
+}
+
+.psection {
+  color: #bababa;
+}
+
+.see {
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  z-index: 99;
+  top: 15px;
+}
+
+.see image {
+  width: 22px;
+  height: 15px;
+}
+
+.main_spacing button {
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 12rpx;
+  z-index: 9;
+  padding: 15px;
+  line-height: 0;
+  font-size: 14px;
+  color: #FFF;
+}
+
+.savebtn {
+  margin: 40rpx 15px 0 15px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 32rpx;
+}
+
+button[disabled][type="primary"],
+.button-hover[type="primary"] {
+  background-color: #fd7d24;
+}
+
+button[disabled] {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.input-medium {
+  width: 80%;
+}
+
+/* 自定义样式 */
+.savebtn {
+  background: linear-gradient(90deg, #E02087, #F82F48);
+  width: 46%;
+  float: right;
+  margin: 17px 0
+}
+
+.privacy_box {
+  padding: 4vw 4vw 0;
+  font-size: 3.5vw;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  line-height: 32px;
+  height: 32px;
+}
+
+.privacy_box radio {
+  transform: scale(1.5);
+  margin: 0 0 0!important;
+  padding: 0 5px;
+}
+
+.privacy_box view:nth-child(2n) {
+  color: #76afe3;
+}
+
+radio .wx-radio-input {
+  width: 3vw;
+  height: 3vw;
+  border-width: 1px;
+}

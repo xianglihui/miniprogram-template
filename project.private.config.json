@@ -1,0 +1,23 @@
+{
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/bindphone/bindphone",
+          "pathName": "pages/bindphone/bindphone",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
